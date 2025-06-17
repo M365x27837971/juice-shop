@@ -41,7 +41,7 @@ jobs:
       name: Azure Login
       uses: azure/login@v2
       with:
-        client-id: ${{ secrets.AZURE_CLIENT_ID }}
+        client-id: ${{ 0b1e7a27-714d-491d-836c-9daf78ce17c5 }}
         tenant-id: ${{ secrets.AZURE_TENANT_ID }}
         subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
     
@@ -65,7 +65,7 @@ jobs:
       name: Azure Login
       uses: azure/login@v2
       with:
-        client-id: ${{ secrets.AZURE_CLIENT_ID }}
+        client-id: ${{ 0b1e7a27-714d-491d-836c-9daf78ce17c5 }}
         tenant-id: ${{ secrets.AZURE_TENANT_ID }}
         subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
